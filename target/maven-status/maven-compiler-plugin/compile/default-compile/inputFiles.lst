@@ -1,0 +1,16 @@
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\BasePage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\CartPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\CheckoutPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\DemoblazeCartPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\DemoblazeCheckoutModal.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\DemoblazeHomePage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\DemoblazeLoginModal.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\DemoblazeProductPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\InventoryPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\LoginPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\pages\OrderPage.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\utils\ConfigReader.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\utils\DriverFactory.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\utils\ExtentManager.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\utils\ScreenshotUtil.java
+C:\Users\Gasser\Automated-Testing\src\main\java\com\example\utils\WaitUtils.java

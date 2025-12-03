@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Demoblaze E-Commerce Automation Suite" verbose="1" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="com.example.utils.ExtentTestListener"/>
+    </listeners>
+    <test name="Demoblaze Core Flows">
+        <classes>
+            <class name="com.example.tests.DemoblazeLoginTests"/>
+            <class name="com.example.tests.DemoblazeProductTests"/>
+            <class name="com.example.tests.DemoblazeCartTests"/>
+            <class name="com.example.tests.DemoblazeCheckoutTests"/>
+        </classes>
+    </test>
+</suite>

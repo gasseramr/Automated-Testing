@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-03T13:00:20 EET" name="Demoblaze E-Commerce Automation Suite" finished-at="2025-12-03T13:01:00 EET" duration-ms="40604">
+    <groups>
+    </groups>
+    <test started-at="2025-12-03T13:00:20 EET" name="Demoblaze Core Flows" finished-at="2025-12-03T13:01:00 EET" duration-ms="40604">
+      <class name="com.example.tests.DemoblazeLoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1]" started-at="2025-12-03T13:00:20 EET" name="setUp" finished-at="2025-12-03T13:00:23 EET" duration-ms="2909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1]" started-at="2025-12-03T13:00:23 EET" name="invalidLogin" description="Invalid login should show error alert" finished-at="2025-12-03T13:00:29 EET" duration-ms="6047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1]" started-at="2025-12-03T13:00:29 EET" name="tearDown" finished-at="2025-12-03T13:00:33 EET" duration-ms="4019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=DemoblazeLoginTests.invalidLogin()[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1]" started-at="2025-12-03T13:00:33 EET" name="setUp" finished-at="2025-12-03T13:00:34 EET" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1]" started-at="2025-12-03T13:00:34 EET" name="validLogin" description="Valid login should show welcome user" finished-at="2025-12-03T13:00:40 EET" duration-ms="5868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1]" started-at="2025-12-03T13:00:40 EET" name="tearDown" finished-at="2025-12-03T13:00:42 EET" duration-ms="1436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=DemoblazeLoginTests.validLogin()[pri:0, instance:com.example.tests.DemoblazeLoginTests@76508ed1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.DemoblazeLoginTests -->
+      <class name="com.example.tests.DemoblazeCheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.DemoblazeCheckoutTests@1ab3a8c8]" started-at="2025-12-03T13:00:45 EET" name="setUp" finished-at="2025-12-03T13:00:47 EET" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutFlow()[pri:0, instance:com.example.tests.DemoblazeCheckoutTests@1ab3a8c8]" started-at="2025-12-03T13:00:47 EET" name="checkoutFlow" description="Checkout flow and verify order confirmation" finished-at="2025-12-03T13:00:59 EET" duration-ms="12239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.DemoblazeCheckoutTests@1ab3a8c8]" started-at="2025-12-03T13:00:59 EET" name="tearDown" finished-at="2025-12-03T13:01:00 EET" duration-ms="990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutFlow status=SUCCESS method=DemoblazeCheckoutTests.checkoutFlow()[pri:0, instance:com.example.tests.DemoblazeCheckoutTests@1ab3a8c8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.DemoblazeCheckoutTests -->
+      <class name="com.example.tests.DemoblazeCartTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.DemoblazeCartTests@6973b51b]" started-at="2025-12-03T13:00:42 EET" name="setUp" finished-at="2025-12-03T13:00:43 EET" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addRemoveItems()[pri:0, instance:com.example.tests.DemoblazeCartTests@6973b51b]" started-at="2025-12-03T13:00:43 EET" name="addRemoveItems" description="Add and remove items in cart, verify counts" finished-at="2025-12-03T13:00:58 EET" duration-ms="14457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveItems -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.DemoblazeCartTests@6973b51b]" started-at="2025-12-03T13:00:58 EET" name="tearDown" finished-at="2025-12-03T13:01:00 EET" duration-ms="2433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addRemoveItems status=SUCCESS method=DemoblazeCartTests.addRemoveItems()[pri:0, instance:com.example.tests.DemoblazeCartTests@6973b51b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.DemoblazeCartTests -->
+      <class name="com.example.tests.DemoblazeProductTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb]" started-at="2025-12-03T13:00:20 EET" name="setUp" finished-at="2025-12-03T13:00:23 EET" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterByCategoryPhones()[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb]" started-at="2025-12-03T13:00:23 EET" name="filterByCategoryPhones" description="Filter by category: verify a known product is present" finished-at="2025-12-03T13:00:31 EET" duration-ms="8230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByCategoryPhones -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb]" started-at="2025-12-03T13:00:31 EET" name="tearDown" finished-at="2025-12-03T13:00:33 EET" duration-ms="2206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterByCategoryPhones status=SUCCESS method=DemoblazeProductTests.filterByCategoryPhones()[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb]" started-at="2025-12-03T13:00:33 EET" name="setUp" finished-at="2025-12-03T13:00:35 EET" duration-ms="1428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productVisibilityByName()[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb]" started-at="2025-12-03T13:00:35 EET" name="productVisibilityByName" description="Simulated search by name: open and verify product page" finished-at="2025-12-03T13:00:43 EET" duration-ms="8410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productVisibilityByName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb]" started-at="2025-12-03T13:00:43 EET" name="tearDown" finished-at="2025-12-03T13:00:45 EET" duration-ms="1922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productVisibilityByName status=SUCCESS method=DemoblazeProductTests.productVisibilityByName()[pri:0, instance:com.example.tests.DemoblazeProductTests@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.DemoblazeProductTests -->
+    </test> <!-- Demoblaze Core Flows -->
+  </suite> <!-- Demoblaze E-Commerce Automation Suite -->
+</testng-results>
