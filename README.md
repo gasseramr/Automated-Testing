@@ -57,5 +57,3 @@ Extensibility
 - Add new tests under `com.example.tests` and reference them in `testng.xml`.
 - Support data-driven tests via TestNG `@DataProvider` if needed.
 
-CI/CD (Optional)
-- Use GitHub Actions to run `mvn clean test` on push and upload `target/` reports as artifacts.
